@@ -1,0 +1,11 @@
+bip32utils
+certifi
+chardet
+ecdsa
+idna
+mnemonic
+requests
+six
+urllib3
+colored
+notify-py
