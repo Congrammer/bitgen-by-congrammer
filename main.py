@@ -15,6 +15,8 @@ from time import sleep
 import ctypes
 #from notifypy import Notify
 
+
+
 timesl = 10 # задержка между запросами
 token_bot = "" # создать бота и получить токен тут @BotFather
 chat_id = "" #узнать ваш id можно в боте @userinfobot
@@ -79,7 +81,7 @@ def getBalance3(addr):
         print('{}У тебя походу бан по ip{}'.format(fg("#FE672A"), attr("reset")))
         time.sleep(600)
         return (getBalance3(addr))
-        pass
+
 
 
 def generateSeed():
@@ -123,15 +125,15 @@ def listToString(s):
     # return string
     return (str1.join(s))
 
-async def sendBotMsg(msg):
+
+def sendBotMsg(msg):
     if token_bot != "":
         try:
             url = f"chat_id={chat_id}&text={msg}"
-            await requests.get(f"https://api.telegram.org/bot{token_bot}/sendMessage", url)
+            requests.get(f"https://api.telegram.org/bot{token_bot}/sendMessage", url)
         except:
             pass
 
-print()
 def check():
     while True:
 
