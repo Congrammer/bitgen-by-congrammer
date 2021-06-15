@@ -8,12 +8,13 @@ https://github.com/Anarbb/BitGen оригинал
 - Добавил проверку на бан по ip 
 - Переписал код под другое api
 
-# Настройка разработки
-pip install -r Requirments.txt
+# Установка зависимостей cmd
+pip install -r requirments.txt
 
 python3.8 main.py
 
-# Установка Windows
-pip install -r Requirments.txt
+# 1. Установка зависимостей Windows
+pip_install.bat
 
-start.bat
+# 2. Запуск программы
+run.bat
