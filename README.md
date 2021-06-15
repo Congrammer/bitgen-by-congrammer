@@ -11,7 +11,7 @@ https://github.com/Anarbb/BitGen оригинал
 # Установка зависимостей cmd
 pip install -r requirments.txt
 
-python3.8 main.py
+python main.py
 
 # 1. Установка зависимостей Windows
 pip_install.bat
