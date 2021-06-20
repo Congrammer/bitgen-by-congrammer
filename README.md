@@ -9,7 +9,7 @@ https://github.com/Anarbb/BitGen оригинал
 - Переписал код под другое api
 
 # Установка зависимостей cmd
-pip install -r requirments.txt
+pip install -r requirements.txt
 
 python main.py
 
