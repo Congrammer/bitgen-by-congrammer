@@ -1,8 +1,7 @@
 # bitgen by congrammer
 Это простой парсер биткойн-кошельков, который проверяет генерируемые им случайные кошельки на соответствие API и сохраняет те, в которых есть биткойны, в файл, который вы можете использовать.
-https://github.com/Anarbb/BitGen оригинал
- 
-Группа tg https://t.me/luckgen
+Вот гайд как начать: teletype.in/@luckgen/Kak-nachat-poisk-zabytyh-BTC-koshelkov
+Группа tg: t.me/luckgen
  
 - Добавил отправку гудов в телеграмм 
 - Добавил проверку на бан по ip 
